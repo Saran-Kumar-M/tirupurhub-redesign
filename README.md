@@ -1,16 +1,33 @@
-# React + Vite
+# Tirupur Hub - Website Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A performance-focused redesign of [tirupurhub.in](https://tirupurhub.in) built with React + Vite.
 
-Currently, two official plugins are available:
+## Case Study
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Original site problems:**
+- Cluttered double-row navigation
+- Weak hero section with overlapping text
+- Stats stacked vertically with excessive whitespace
+- Product icons in a single row with no visual weight
+- Fabric images stacked one by one
+- Contact form floating in empty space
 
-## React Compiler
+**What we improved:**
+- Clean single-row navbar with clear CTA
+- Full gradient hero with strong headline
+- Stats in horizontal 4-column grid
+- Product cards in 3-column grid with hover effects
+- Fabric grid with clean labels
+- Centered contact form with proper spacing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Lighthouse Scores
 
-## Expanding the ESLint configuration
+| Metric | Before | After |
+|--------|--------|-------|
+| Performance | 79 | 98 |
+| Accessibility | 93 | 100 |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- React + Vite
+- Pure CSS (no frameworks)
+- Deployed on Vercel
