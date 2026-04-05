@@ -1,5 +1,9 @@
 # Tirupur Hub — Website Redesign
 
+## Links
+- Live: https://tirupurhub-redesign.vercel.app
+- Case study: attached in submission
+
 A rebuild of [tirupurhub.in](https://tirupurhub.in) using React + Vite. 
 Built as a case study assignment for HookUX.
 
@@ -24,6 +28,3 @@ attributes.
 | TBT           | 70ms | 0ms |
 | Speed Index   | 3.7s | 1.3s |
 
-## Links
-- Live: https://tirupurhub-redesign.vercel.app
-- Case study: attached in submission
