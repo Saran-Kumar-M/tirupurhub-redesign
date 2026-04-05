@@ -1,33 +1,29 @@
-# Tirupur Hub - Website Redesign
+# Tirupur Hub — Website Redesign
 
-A performance-focused redesign of [tirupurhub.in](https://tirupurhub.in) built with React + Vite.
+A rebuild of [tirupurhub.in](https://tirupurhub.in) using React + Vite. 
+Built as a case study assignment for HookUX.
 
-## Case Study
-
-**Original site problems:**
-- Cluttered double-row navigation
-- Weak hero section with overlapping text
-- Stats stacked vertically with excessive whitespace
-- Product icons in a single row with no visual weight
-- Fabric images stacked one by one
-- Contact form floating in empty space
-
-**What we improved:**
-- Clean single-row navbar with clear CTA
-- Full gradient hero with strong headline
-- Stats in horizontal 4-column grid
-- Product cards in 3-column grid with hover effects
-- Fabric grid with clean labels
-- Centered contact form with proper spacing
-
-## Lighthouse Scores
-
-| Metric | Before | After |
-|--------|--------|-------|
-| Performance | 79 | 98 |
-| Accessibility | 93 | 100 |
+## Why this site
+WordPress-based site with poor mobile performance — LCP of 5.1s, 
+render-blocking plugin scripts, broken mobile nav, and no accessibility 
+attributes.
 
 ## Tech Stack
-- React + Vite
-- Pure CSS (no frameworks)
+- React + Vite (no TypeScript)
+- Pure CSS — Grid + Flexbox, no frameworks
 - Deployed on Vercel
+
+## Lighthouse Scores (Mobile)
+
+| Metric    | Original | Rebuild |
+|--------|-------------|---------|
+| Performance   | 77 | 98 |
+| Accessibility | 93 | 100 |
+| FCP           | 2.5s  | 1.3s |
+| LCP           | 5.1s | 2.4s |
+| TBT           | 70ms | 0ms |
+| Speed Index   | 3.7s | 1.3s |
+
+## Links
+- Live: https://tirupurhub-redesign.vercel.app
+- Case study: attached in submission
